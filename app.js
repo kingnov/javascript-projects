@@ -143,29 +143,57 @@
 // circumference = 2 * pi * radius;
 // console.log(circumference);
 
-// giving functionality to our counter
+// Counter Program
 
-const decreaseBtn = document.getElementById("decreaseBtn");
-const resetBtn = document.getElementById("resetBtn");
-const increaseBtn = document.getElementById("increaseBtn");
-const counterlabel= document.getElementById("counterLabel");
+// const decreaseBtn = document.getElementById("decreaseBtn");
+// const resetBtn = document.getElementById("resetBtn");
+// const increaseBtn = document.getElementById("increaseBtn");
+// const counterlabel= document.getElementById("counterLabel");
 
-let count = 0;
+// let count = 0;
 
-increaseBtn.onclick = function(){
-    count++;
-    counterlabel.textContent = count;
-}
-decreaseBtn.onclick = function(){
-    count--;
-    counterlabel.textContent = count;
-}
-resetBtn.onclick = function(){
-    count = 0;
-    counterlabel.textContent = count;
-}
+// increaseBtn.onclick = function(){
+//     count++;
+//     counterlabel.textContent = count;
+// }
+// decreaseBtn.onclick = function(){
+//     count--;
+//     counterlabel.textContent = count;
+// }
+// resetBtn.onclick = function(){
+//     count = 0;
+//     counterlabel.textContent = count;
+// }
 
 
+//Math = built in objects that provide collection of objects and methods
+// Math.PI
+// console.log(Math.PI);
+// console.log(Math.E);
+
+let x = 3;
+let y = 2;
+let z = 1;
+
+// z = Math.round(x)
+// z = Math.floor(x);
+// z = Math.ceil(x);
+// z = Math.trunc(x);
+// z = Math.pow(x, y);
+// z = Math.sqrt(x);
+// z = Math.log(x);
+// z = Math.sin(x);
+// z = Math.cos(x);
+// z = Math.tan(x);
+// z = Math.abs(x)
+// z = Math.sign(x)
+// console.log(z)
+
+// let max = Math.max(x, y, z);
+// console.log(max);
+
+let min = Math.min(x, y, z);
+console.log(min);
 
 
 
